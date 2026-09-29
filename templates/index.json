@@ -15,35 +15,35 @@
         "image_slider_taKCGx": {
           "type": "image_slider",
           "settings": {
-            "slide_image": "shopify://shop_images/Rectangle_2.png",
-            "slide_text": "<p>QUALITY TIMBER IN </p><p>AUCKLAND </p><p>LOWER PRICES</p>",
+            "slide_image": "shopify://shop_images/hero-banner.png",
+            "slide_text": "<p>QUALITY TIMBER IN&nbsp;</p><p>AUCKLAND&nbsp;</p><p>LOWER PRICES</p>",
             "paragraph": "Welcome to Timber Dealers – a small, independent, family-owned and operated timber supplier in Auckland (East Tamaki), committed to bringing you quality timber at lower prices!",
             "text_alignment": "right"
           }
         },
-        "image_slider_QnfEQy": {
+        "image_slider_g4nFpU": {
           "type": "image_slider",
           "settings": {
-            "slide_image": "shopify://shop_images/Rectangle_2.png",
-            "slide_text": "<p>QUALITY TIMBER IN </p><p>AUCKLAND </p><p>LOWER PRICES</p>",
+            "slide_image": "shopify://shop_images/hero-banner.png",
+            "slide_text": "<p>QUALITY TIMBER IN&nbsp;</p><p>AUCKLAND&nbsp;</p><p>LOWER PRICES</p>",
             "paragraph": "Welcome to Timber Dealers – a small, independent, family-owned and operated timber supplier in Auckland (East Tamaki), committed to bringing you quality timber at lower prices!",
             "text_alignment": "right"
           }
         },
-        "image_slider_WxUBPT": {
+        "image_slider_btTHzx": {
           "type": "image_slider",
           "settings": {
-            "slide_image": "shopify://shop_images/Rectangle_2.png",
-            "slide_text": "<p>QUALITY TIMBER IN </p><p>AUCKLAND </p><p>LOWER PRICES</p>",
+            "slide_image": "shopify://shop_images/hero-banner.png",
+            "slide_text": "<p>QUALITY TIMBER IN&nbsp;</p><p>AUCKLAND&nbsp;</p><p>LOWER PRICES</p>",
             "paragraph": "Welcome to Timber Dealers – a small, independent, family-owned and operated timber supplier in Auckland (East Tamaki), committed to bringing you quality timber at lower prices!",
             "text_alignment": "right"
           }
         },
-        "image_slider_QLqUkY": {
+        "image_slider_DK7mFg": {
           "type": "image_slider",
           "settings": {
-            "slide_image": "shopify://shop_images/Rectangle_2.png",
-            "slide_text": "<p>QUALITY TIMBER IN </p><p>AUCKLAND </p><p>LOWER PRICES</p>",
+            "slide_image": "shopify://shop_images/hero-banner.png",
+            "slide_text": "<p>QUALITY TIMBER IN&nbsp;</p><p>AUCKLAND&nbsp;</p><p>LOWER PRICES</p>",
             "paragraph": "Welcome to Timber Dealers – a small, independent, family-owned and operated timber supplier in Auckland (East Tamaki), committed to bringing you quality timber at lower prices!",
             "text_alignment": "right"
           }
@@ -51,9 +51,9 @@
       },
       "block_order": [
         "image_slider_taKCGx",
-        "image_slider_QnfEQy",
-        "image_slider_WxUBPT",
-        "image_slider_QLqUkY"
+        "image_slider_g4nFpU",
+        "image_slider_btTHzx",
+        "image_slider_DK7mFg"
       ],
       "name": "hero banner:",
       "settings": {
@@ -129,7 +129,7 @@
         "first_logo_aJeAXB": {
           "type": "first_logo",
           "settings": {
-            "first_logo": "shopify://shop_images/image_28_2.png"
+            "first_logo": "shopify://shop_images/image_28.png"
           }
         }
       },
@@ -143,9 +143,9 @@
         "section_width": "page-width",
         "color_scheme": "",
         "section_size": 3,
-        "image": "shopify://shop_images/Rectangle_9_1.png",
+        "image": "shopify://shop_images/Rectangle_9.png",
         "first_position": "center",
-        "inquire_background_image": "shopify://shop_images/Rectangle_10_1.png",
+        "inquire_background_image": "shopify://shop_images/Rectangle_10.png",
         "second_position": "center"
       }
     },
@@ -187,7 +187,7 @@
       "settings": {
         "section_width": "page-width",
         "color_scheme": "",
-        "background_image": "shopify://shop_images/Rectangle_83_2.png",
+        "background_image": "shopify://shop_images/Rectangle_83.png",
         "overlay_color": "#c20502",
         "opacity": 8
       }
@@ -265,7 +265,7 @@
       "settings": {
         "section_width": "full",
         "color_scheme": "",
-        "featured_product": "timber"
+        "featured_product": "wood"
       }
     },
     "db_order_now_section_kCgTAU": {
@@ -431,11 +431,14 @@
     },
     "db_product_showcase_giNfPe": {
       "type": "db-product-showcase",
+      "custom_css": [
+        ".db-product-showcase{margin-bottom: 80px}"
+      ],
       "name": "db product showcase",
       "settings": {
         "section_width": "full",
-        "color_scheme": "",
-        "featured_product": "timber"
+        "color_scheme": "scheme-1",
+        "featured_product": "wood"
       }
     }
   },
